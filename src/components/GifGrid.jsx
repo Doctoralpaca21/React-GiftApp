@@ -14,7 +14,7 @@ export const GifGrid = ({ category }) => {
     return (
         <>
             <h3>{category}</h3>
-            {/* {loading ? "Loading ..." : "Uploaded data"} */}
+            
             <div className="card-grid">                
                 {data.map(image => (
                     <GifGridItem
